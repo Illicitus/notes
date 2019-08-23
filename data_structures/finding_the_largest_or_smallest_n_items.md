@@ -22,9 +22,9 @@ heapq.nsmallest(3, col)
 import heapq
 
 data = [
-  {'name': 'foo', 'value': 10, 'value1': 11},
-  {'name': 'foo1', 'value': 100, 'value1': 110},
-  {'name': 'foo2', 'value': 1000, 'value1': 1100},
+    {'name': 'foo', 'value': 10, 'value1': 11},
+    {'name': 'foo1', 'value': 100, 'value1': 110},
+    {'name': 'foo2', 'value': 1000, 'value1': 1100},
 ]
 
 expensive = heapq.nlargest(3, data, key=lambda s: s['value1'])
